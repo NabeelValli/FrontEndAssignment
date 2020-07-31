@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="myJavaScript.js" type="text/javascript"></script>
+        <link href="myStyle.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body id="bod" onload="populateContactList()">
+        <div class = "mainBox" id="mainBox">
+
+            <div class="leftBar" id="leftBar">
+
+                <ul class="iconList" id="iconList">    
+                    <li><i class="fa fa-bars" id="fb" aria-hidden="true"></i>
+                    </li>
+                    <li><i class="fa fa-inbox" id="fi" aria-hidden="true"></i>
+                    </li>
+                    <li><i class="fa fa-star" id="fs" aria-hidden="true"></i>
+                    </li>
+                    <li><i class="fa fa-trash" id="ft" aria-hidden="true"></i>
+                        </li>
+                    <li><i class="fa fa-users" id ="fu" aria-hidden="true"></i>
+
+</li>
+                </ul>
+
+            </div>
+
+            <div class="sideArea" id="sideArea">
+
+                <ul class="contactList" id="contactList"></ul>      
+
+            </div>
+            <div class="chatHeader" id="chatHeader">Heading</div>
+
+            <div class="chatArea" id="chatArea">
+                <ul class="chatList" id="chatList">
+
+
+                </ul> 
+
+            </div>
+            <div class="footing">
+
+
+                <textarea class="txtArea" id="txtArea" placeholder ="Type your message" rows="2"></textarea>
+
+
+
+                <button class="sendButton" onclick="sendMessage()"><i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </button>
+
+
+
+            </div>
+
+
+
+
+        </div>
+    </body>
+</html>

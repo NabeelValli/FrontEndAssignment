@@ -1,0 +1,247 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31 Jul 2020, 2:08:27 PM
+    Author     : Nabeel
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+html{
+    background-color: lightblue;
+    font: 14px/20px "Lato", Arial, sans-serif;
+}
+body{
+    padding-top: 25px;
+    padding-left:   25px;
+    
+    
+}
+.mainBox{
+    border-radius: 20px;
+    height:800px;
+    width: 800px;
+    background-color: #e4e3e3;
+    align-self: center;
+    border-radius: 20px;   
+    
+    
+}
+.leftBar
+{
+    width: 45px;
+    height: 800px;
+    float: left;
+    background-color: #424874;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.sideArea{
+    background-color: white;
+    width:260px;
+    float: left;
+    height: 800px;
+    
+}
+
+
+
+.contactList{
+    list-style: none;
+    float: left;
+    padding-left: 0px;
+    background-color: #dcd6f7
+    
+}
+.chatHeader{
+    width: 494px;    
+    float: right;
+    float:top;
+    height:100px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #a6b1e1;
+    
+}
+.chatArea{
+    width: 494px;
+    height:600px;        
+    float: right;
+    float:top;
+    background-color: #e4e3e3;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #a6b1e1;
+}
+
+.footing{
+    width: 494px;    
+    float: right;
+    float:top;
+    height:100px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;    
+    border-right-width: 0px;
+    
+    
+    border-color:#424874;
+    
+    border-left-style: solid;
+    border-top-style: solid;
+    
+    
+    
+}
+.personButton
+{
+    background-color: #e4e3e3;
+    width: 260px;
+    height: 50px;
+    border-style:solid;
+    float: left;
+    font: 14px/20px "Lato", Arial, sans-serif;
+    border-width: 0.5px;
+    border-color: #a6b1e1;
+    border-right-style: none;
+        
+}
+
+.proPic
+{
+    height: 40px;
+    width: 40px;
+    float: left;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+
+.chatList{
+    list-style: none;
+    float: left;
+    padding-left: 0px;
+    
+    
+}
+
+.txtArea{
+    width: 320px;
+      border: none;
+      
+      font: 14px/22px "Lato", Arial, sans-serif;
+      
+      border-radius: 10px;
+      resize: none;
+      padding: 10px;
+      margin-left: 20px;
+      float: left;
+}
+
+.sendButton{
+    border-style: none;
+    
+          padding: 10px;
+margin-bottom: 10px;
+float: left;
+margin-left: 10px;
+margin-top: 5px;
+width: 75px;
+    height: 60px;
+    background-color: #e4e3e3;
+        
+        
+
+
+}
+
+.fa-paper-plane{
+    
+    font-size: 30px;
+    color: #424874;
+}
+
+.me
+{
+    float:right;
+    padding: 7px;
+    width: 320px;
+    background-color: #a6b1e1;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    
+    
+}
+
+.otherPerson{
+    float: left;
+    padding: 7px;
+    width: 320px;
+    background-color: #424874;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.headProPic{
+     height: 60px;
+    width: 60px;
+    float: left;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+.headInfo{
+    font-size: 24px;
+    padding-top: 20px;
+}
+#iconList
+{
+    list-style: none;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+#fb
+{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    color: #a6b1e1;
+}
+#fi
+{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    color: #a6b1e1;
+}
+#fs
+{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    color: #a6b1e1;
+}
+#ft{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    color: #a6b1e1;
+}
+#fu{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    color: #a6b1e1;
+}
